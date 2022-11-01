@@ -42,9 +42,17 @@ console.log(sameCase('h', 'w')); */
 
 // Gravity Flip CodeWars
 
-function flip (d, a) {
+/* function flip (d, a) {
     if(d === 'R') return a.sort((a, b) => a - b) 
     else if (d === 'L') return a.sort((a, b) => b - a)
 }
 
-console.log(flip('L', [3, 2, 1, 2]));
+console.log(flip('L', [3, 2, 1, 2])); */
+
+/* function remainder(n, m) {
+    const max = Math.max(n, m)
+    const min = Math.min(n, m)
+    return max % min
+}
+
+console.log(remainder(-33, -938)); */
