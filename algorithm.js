@@ -56,3 +56,18 @@ console.log(flip('L', [3, 2, 1, 2])); */
 }
 
 console.log(remainder(-33, -938)); */
+
+
+// Removing Elements CodeWars
+
+function removeEveryOther(arr) {
+    const arr2 = []
+    for(let i = 0; i < arr.length; i++) {
+        if(i % 2 == 0) {
+            arr2.push(arr[i])
+        }
+    }
+    return arr2
+}
+
+console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
