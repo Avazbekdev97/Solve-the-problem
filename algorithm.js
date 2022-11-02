@@ -79,3 +79,18 @@ console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"])); */
 }
 
 console.log(maps([1, 2, 3])); */
+
+// How good are you really? Codewars
+
+/* function betterThanAverage(classPoints, yourPoints) {
+    let sum = 0,
+        count = 0
+    for(let i = 0; i < classPoints.length; i++) {
+        sum += classPoints[i]
+        count++
+    }
+    sum = parseInt(sum / count)
+    return sum < yourPoints ? true : false
+}
+
+console.log(betterThanAverage([2, 3], 5)); */
