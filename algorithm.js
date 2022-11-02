@@ -94,3 +94,17 @@ console.log(maps([1, 2, 3])); */
 }
 
 console.log(betterThanAverage([2, 3], 5)); */
+
+// Vowel remover
+
+/* function shortcut (string) {
+    let vowel = ['a', 'e', 'i', 'o', 'u']
+    let str = ''
+    for(let i = 0; i < string.length; i++) {
+        if(vowel.includes(string[i])) continue
+        else str += string[i]
+    }
+    return str
+}
+
+console.log(shortcut('olmaliq')); */
