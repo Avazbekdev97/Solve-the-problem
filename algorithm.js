@@ -60,7 +60,7 @@ console.log(remainder(-33, -938)); */
 
 // Removing Elements CodeWars
 
-function removeEveryOther(arr) {
+/* function removeEveryOther(arr) {
     const arr2 = []
     for(let i = 0; i < arr.length; i++) {
         if(i % 2 == 0) {
@@ -70,4 +70,12 @@ function removeEveryOther(arr) {
     return arr2
 }
 
-console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
+console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"])); */
+
+// Beginner - Lost Without a Map CodeWars
+
+/* function maps(x){
+    return x.map(el => el * 2)
+}
+
+console.log(maps([1, 2, 3])); */
