@@ -108,3 +108,23 @@ console.log(betterThanAverage([2, 3], 5)); */
 }
 
 console.log(shortcut('olmaliq')); */
+
+// Merge Two Sorted Lists LeetCode
+
+/* function mergeTwoLists(list1, list2) {
+    let arr = [...list1, ...list2]
+    //let size = list1.length < list2.length ? list1.length: list2.length
+    return arr.sort((a, b) => a - b)
+}
+
+console.log(mergeTwoLists([1,2,4], [1,3,4])); */
+
+// shorter concat [reverse longer] codewars
+
+/* function shorter_reverse_longer(a,b){
+    if(a.length == b.length) return b + a.split('').reverse().join('') + b 
+    else if (a.length > b.length) return b + a.split('').reverse().join('') + b
+    else return a + b.split('').reverse().join('') + a
+}
+
+console.log(shorter_reverse_longer("first", "abcde")); */
