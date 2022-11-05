@@ -1,4 +1,4 @@
-// twoSum LeetCode
+// 1) twoSum LeetCode
 
 /* function twoSum (nums, target) {
     const result = []
@@ -11,7 +11,7 @@
 }
 console.log(twoSum([3, 2, 4], 6)); */
 
-// palindrome LeetCode 
+// 2) palindrome LeetCode 
 
 /* function isPalindrome (x) {
     let result = x.toString().split('').reverse().join('')
@@ -20,7 +20,7 @@ console.log(twoSum([3, 2, 4], 6)); */
 }
 console.log(isPalindrome(123)) */
 
-// Check same case codewars
+// 3) Check same case codewars
 
 /* function sameCase(a, b){
     a = a.toString()
@@ -40,7 +40,7 @@ console.log(isPalindrome(123)) */
 
 console.log(sameCase('h', 'w')); */
 
-// Gravity Flip CodeWars
+// 4) Gravity Flip CodeWars
 
 /* function flip (d, a) {
     if(d === 'R') return a.sort((a, b) => a - b) 
@@ -48,6 +48,8 @@ console.log(sameCase('h', 'w')); */
 }
 
 console.log(flip('L', [3, 2, 1, 2])); */
+
+// 5) min max mode
 
 /* function remainder(n, m) {
     const max = Math.max(n, m)
@@ -58,7 +60,7 @@ console.log(flip('L', [3, 2, 1, 2])); */
 console.log(remainder(-33, -938)); */
 
 
-// Removing Elements CodeWars
+// 6) Removing Elements CodeWars
 
 /* function removeEveryOther(arr) {
     const arr2 = []
@@ -72,7 +74,7 @@ console.log(remainder(-33, -938)); */
 
 console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"])); */
 
-// Beginner - Lost Without a Map CodeWars
+// 7) Beginner - Lost Without a Map CodeWars
 
 /* function maps(x){
     return x.map(el => el * 2)
@@ -80,7 +82,7 @@ console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"])); */
 
 console.log(maps([1, 2, 3])); */
 
-// How good are you really? Codewars
+// 8) How good are you really? Codewars
 
 /* function betterThanAverage(classPoints, yourPoints) {
     let sum = 0,
@@ -95,7 +97,7 @@ console.log(maps([1, 2, 3])); */
 
 console.log(betterThanAverage([2, 3], 5)); */
 
-// Vowel remover
+// 9) Vowel remover
 
 /* function shortcut (string) {
     let vowel = ['a', 'e', 'i', 'o', 'u']
@@ -109,7 +111,7 @@ console.log(betterThanAverage([2, 3], 5)); */
 
 console.log(shortcut('olmaliq')); */
 
-// Merge Two Sorted Lists LeetCode
+// 10) Merge Two Sorted Lists LeetCode
 
 /* function mergeTwoLists(list1, list2) {
     let arr = [...list1, ...list2]
@@ -119,7 +121,7 @@ console.log(shortcut('olmaliq')); */
 
 console.log(mergeTwoLists([1,2,4], [1,3,4])); */
 
-// shorter concat [reverse longer] codewars
+// 11) shorter concat [reverse longer] codewars
 
 /* function shorter_reverse_longer(a,b){
     if(a.length == b.length) return b + a.split('').reverse().join('') + b 
@@ -128,3 +130,17 @@ console.log(mergeTwoLists([1,2,4], [1,3,4])); */
 }
 
 console.log(shorter_reverse_longer("first", "abcde")); */
+
+// 12) Reverse words
+
+/* function reverseWords(str) {
+    str = str.split('').reverse().join('')
+    str = str.split(' ')
+    let str2 = ''
+    for(let i = str.length - 1; i >= 0; i--) {
+        str2 += str[i] + ' '
+    }
+    return str2.trimEnd()
+}
+
+console.log(reverseWords("ehT kciuq nworb xof spmuj revo eht yzal .god ")); */
