@@ -163,3 +163,41 @@ The input string will only consist of lower case letters and/or spaces. */
 }
 
 console.log(getCount('abracadabra')); */
+
+// 14) My head is at the wrong end!
+/* You're at the zoo... all the meerkats look weird. 
+Something has gone terribly wrong - someone has gone and switched their heads and tails around!
+Save the animals by switching them back. 
+You will be given an array which will have three values (tail, body, head). It is your job to re-arrange the array so that the animal is the right way round (head, body, tail).
+Same goes for all the other arrays/lists that you will get in the tests: 
+you have to change the element positions with the same exact logics
+
+Simples! */
+
+/* function fixTheMeerkat(arr) {
+    let list = []
+    for(let i of arr) {
+        list.unshift(i)
+    }
+    return list
+}
+
+console.log(fixTheMeerkat(["bottom", "middle", "top"])); */
+
+// 15) Search Insert Position LeetCode 35 Easy
+
+/* Given a sorted array of distinct integers and a target value, 
+return the index if the target is found. 
+If not, return the index where it would be if it were inserted in order.
+You must write an algorithm with O(log n) runtime complexity. */
+
+/* function searchInsert(nums, target) {
+    if(nums.includes(target)) return nums.indexOf(target)
+    else {
+        nums.push(target)
+        nums = nums.sort((a, b) => a - b)
+    }
+    return nums.indexOf(target) 
+}
+
+console.log(searchInsert([1,3,5,6], 2)); */
