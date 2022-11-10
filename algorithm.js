@@ -268,3 +268,38 @@ Examples
 }
 
 console.log(squares(2, 5)); */
+
+// 19) Length of Last Word 58
+/* Given a string s consisting of words and spaces, return the length of the last word in the string.
+A word is a maximal substring consisting of non-space characters only. 
+
+Example 1:
+
+Input: s = "Hello World"
+Output: 5
+Explanation: The last word is "World" with length 5.
+*/
+
+/* function lengthOfLastWord (s) {
+    s = s.trim().split(' ')
+    return s.at(-1).length
+}
+
+console.log((lengthOfLastWord("   fly me   to   the moon  "))); */
+
+// 20) Highest and Lowest CodeWars
+/* In this little assignment you are given a string of space separated numbers, 
+and have to return the highest and lowest number. 
+Examples
+highAndLow("1 2 3 4 5");  // return "5 1"
+highAndLow("1 2 -3 4 5"); // return "5 -3"
+highAndLow("1 9 3 4 -5"); // return "9 -5"
+*/
+/* function highAndLow(numbers){
+    numbers = numbers.split(' ')
+    const max =  Math.max(...numbers)
+    const min = Math.min(...numbers)
+    return `${max} ${min}` 
+}
+
+console.log(highAndLow("1 9 3 4 -5")); */
